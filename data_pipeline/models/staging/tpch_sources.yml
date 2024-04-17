@@ -1,20 +1,20 @@
 version: 2
 
-
 sources:
-  - database: snowflake_smaple_data
+  - name: tpch
+    database: snowflake_sample_data
     schema: tpch_sf1
     tables:
       - name: orders
         columns:
-          - names: o_orderkey
+          - name: o_orderkey
             tests:
               - unique
               - not_null
       - name: lineitem
         columns:
-          - names: l_orderkey
+          - name: l_orderkey
             tests:
               - relationships:
-                to: source('tpch', 'orders')
-                fields: o_orderkey
+                  to: source('tpch', 'orders')
+                  field: o_orderkey
