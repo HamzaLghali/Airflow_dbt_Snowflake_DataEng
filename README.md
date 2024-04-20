@@ -9,7 +9,7 @@
 <h3 align="left">Here's a small description about my project:</h3>
 <p align="center">
 
-  # 🔭 DataOps Project: Airflow, dbt, and Snowflake Integration
+  # 🔭 DataEng Project: Airflow, dbt, and Snowflake Integration
 
 Welcome to the README for my latest DataOps project! This project leverages powerful tools like Airflow, dbt, and Snowflake to create a robust data pipeline that is both scalable and efficient.
 
