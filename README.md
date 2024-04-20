@@ -11,7 +11,7 @@
 
   # 🔭 DataEng Project: Airflow, dbt, and Snowflake Integration
 
-Welcome to the README for my latest DataOps project! This project leverages powerful tools like Airflow, dbt, and Snowflake to create a robust data pipeline that is both scalable and efficient.
+Welcome to the README for my latest Data Engineering project! This project leverages powerful tools like Airflow, dbt, and Snowflake to create a robust data pipeline that is both scalable and efficient.
 
 ## 🌟 Project Overview
 
